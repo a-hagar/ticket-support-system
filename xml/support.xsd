@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tickets">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ticket" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="ticketId" />
+                            <xs:element name="userId" minOccurs="0" />
+                            <xs:element name="dateOfIssue">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="time" maxOccurs="unbounded"/>
+                                        <xs:element name="day" maxOccurs="unbounded"/>
+                                        <xs:element name="month" maxOccurs="unbounded"/>
+                                        <xs:element name="year" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="status" minOccurs="0" />
+                            <xs:element name="subject" minOccurs="0" />
+                            <xs:element name="log" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="message" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="userId"/>
+                                                    <xs:element name="timestamp">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="sendtime" maxOccurs="unbounded"/>
+                                                                <xs:element name="sendday" maxOccurs="unbounded"/>
+                                                                <xs:element name="sendmonth" maxOccurs="unbounded"/>
+                                                                <xs:element name="sendyear" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="text"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:integer" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

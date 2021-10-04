@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="support.xsd">
+    <ticket>
+        <ticketId>1</ticketId>
+        <userId>1</userId>
+        <dateOfIssue>
+            <time>17:15:00</time>
+            <day>20</day>
+            <month>01</month>
+            <year>2019</year>
+        </dateOfIssue>
+        <status>resolved</status>
+        <subject>Locked Account</subject>
+        <log>
+            <message id="1">
+                <userId>1</userId>
+                <timestamp>
+                    <sendtime>17:15:00</sendtime>
+                    <sendday>20</sendday>
+                    <sendmonth>01</sendmonth>
+                    <sendyear>2019</sendyear>
+                </timestamp>
+                <text>I have forgotten the password associated with this account and it was locked. Can you unlock my account?</text>
+            </message>
+            <message id="2">
+                <userId>2</userId>
+                <timestamp>
+                    <sendtime>17:25:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>01</sendmonth>
+                    <sendyear>2019</sendyear>
+                </timestamp>
+                <text>We need to confirm the identity for the account. Can I have your name and email?</text>
+            </message>
+            <message id="3">
+                <userId>1</userId>
+                <timestamp>
+                    <sendtime>10:15:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>01</sendmonth>
+                    <sendyear>2019</sendyear>
+                </timestamp>
+                <text>My name is John Doe and my email is jdoe@mail.com</text>
+            </message>
+            <message id="4">
+                <userId>2</userId>
+                <timestamp>
+                    <sendtime>17:25:00</sendtime>
+                    <sendday>22</sendday>
+                    <sendmonth>01</sendmonth>
+                    <sendyear>2019</sendyear>
+                </timestamp>
+                <text>Here is a link to change your password: testsupport.com/changepassword</text>
+            </message>
+        </log>
+    </ticket>
+    <ticket>
+        <ticketId>2</ticketId>
+        <userId>4</userId>
+        <dateOfIssue>
+            <time>21:21:00</time>
+            <day>21</day>
+            <month>02</month>
+            <year>2021</year>
+        </dateOfIssue>
+        <status>resolved</status>
+        <subject>Account Overcharged</subject>
+        <log>
+            <message id="1">
+                <userId>4</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>02</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>I was billed twice for this month for some reason. I want to know why?
+                </text>
+            </message>
+            <message id="2">
+                <userId>2</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>23</sendday>
+                    <sendmonth>02</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>Hi, this is James. We will check our system to confirm this. 
+                </text>
+            </message>
+        </log>
+    </ticket>
+    <ticket>
+        <ticketId>3</ticketId>
+        <userId>3</userId>
+        <dateOfIssue>
+            <time>22:56:12</time>
+            <day>23</day>
+            <month>05</month>
+            <year>2021</year>
+        </dateOfIssue>
+        <status>ongoing</status>
+        <subject>Refund after ending plan</subject>
+        <log>
+            <message id="1">
+                <userId>3</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>23</sendday>
+                    <sendmonth>05</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>I was wondering if it was possible to get a refund after closing my plan shortly after paying the monthly fee?</text>
+            </message>
+            <message id="2">
+                <userId>2</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>02</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>Hi, this is James. According to our policy, refunds are only available for users who closed their plans after 3 days the payment.</text>
+            </message>
+            <message id="3">
+                <userId>3</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>02</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>I believe I cancelled mine the day after I paid.</text>
+            </message>
+            <message id="4">
+                <userId>2</userId>
+                <timestamp>
+                    <sendtime>21:21:00</sendtime>
+                    <sendday>21</sendday>
+                    <sendmonth>02</sendmonth>
+                    <sendyear>2021</sendyear>
+                </timestamp>
+                <text>OK. I will check our system to confirm. -James</text>
+            </message>
+        </log>
+    </ticket>
+</tickets>

@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img1.jpg");
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+#body {
+    position: absolute;
+    left: 30%;
+    font-family: sans-serif;
+    margin: 2.5em auto;
+    max-width: 60%;
+      min-height: 100%;
+      font-size: 1.125em;
+      color: rgb(235, 235, 235);
+      padding: 0 .5em;
+}
+  
+  header{
+      padding-bottom: 40px;
+      border-bottom: 1px solid gray;
+  }
+  
+  #logo{
+      float: left;
+  }
+  #logo p{
+      font-weight: 700;
+      margin-top: 0px;
+  }
+  #navlist {
+      list-style-type: none;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      float: right;
+  } 
+  .nav-item {
+      display: inline-block;
+      padding-right: 20px;
+      color: white;
+      text-decoration: none;
+  }
+  .nav-item a{
+      text-decoration: none;
+  }
+  #loginBtn{
+      border: none;
+      color: #f5deb3;
+      background-color: rgb(250, 120, 120);
+      border-radius: 15px;
+      padding: 5px 20px;
+      text-decoration: none;
+  }
+  
+  main{
+      margin: 40px 80px;
+  }
+  
+  .form-link{
+      padding-top: 30px;
+      font-size: 14px;
+  }
+  
+  .form {
+      display: flex;
+      flex-direction: column;
+      margin: 2em 0 1em;
+      border: none;
+      padding: 20px 50px;
+      border-radius: 10px;
+      background-color: #364e46e3;
+      width: 400px;
+  }
+  
+  .input-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1em;
+  }
+  
+  input{
+      font-size: 16px;
+      background-color: #364e46;
+      color: wheat;
+      border: none;
+      height: 30px;
+      width: 80%;
+      border-bottom: 1px solid #f5deb3;
+  }
+  
+  input::placeholder{
+      color: rgb(44, 44, 44);
+      color: wheat;
+  }
+  
+  .submitBtn{
+      margin-top: 20px;
+      border: none;
+      padding: 10px 20px;
+      background-color: rgb(250, 120, 120);
+      border-radius: 15px;
+  }
+  
+  .submitBtn:hover{
+      background-color: rgb(189, 72, 72);
+      color: white;
+  }
+  
+  table{
+      border-collapse: collapse;
+  }
+  .table-space {
+      padding: 0px 110px 15px 0px;
+      text-align: left;
+  }
+  
+  tr:nth-child(even){
+      background-color: #53796c;
+  }
+  
+  a, a:visited{
+      color: rgb(150, 150, 241);
+  }
+  
+  a:hover{
+      color: rgb(218, 119, 119);
+  }
+  
+  #profile{
+      width: 100px;
+  }
+  
+  #footer{
+      position: fixed;
+      bottom: 0;
+      padding-left: 1px;
+      font-size: 12px;
+  }
+  
+  #footer p{
+      font-size: 15px;
+  
+  }
+  
+  .image-credit{
+      position: fixed;
+      bottom: 0;
+      right: 25%;
+  }
+  .image-credit a{
+      color: rgb(235, 235, 235);
+      text-decoration: none;
+  }
+  

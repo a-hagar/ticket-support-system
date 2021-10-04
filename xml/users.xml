@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+    <user userType="client" isAdmin="no">
+        <userid>1</userid>
+        <username>johndoe</username>
+        <password>test1</password>
+        <name>
+            <firstname>John</firstname>
+            <lastname>Doe</lastname>
+        </name>
+    </user>
+    <user userType="support" isAdmin="yes">
+        <userid>2</userid>
+        <username>adminJames</username>
+        <password>admin</password>
+        <name>
+            <firstname>James</firstname>
+            <lastname>Smith</lastname>
+        </name>
+    </user>
+    <user userType="client" isAdmin="no">
+        <userid>3</userid>
+        <username>ahagar1</username>
+        <password>test3</password>
+        <name>
+            <firstname>Ahmed</firstname>
+            <lastname>Hagar</lastname>
+        </name>
+    </user>
+    <user userType="client" isAdmin="no">
+        <userid>4</userid>
+        <username>redd0livia</username>
+        <password>test4</password>
+        <name>
+            <firstname>Olivia</firstname>
+            <lastname>Redd</lastname>
+        </name>
+    </user>
+</users>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user"  minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="userid" />
+                            <xs:element name="username" />
+                            <xs:element name="password" />
+                            <xs:element name="name">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="firstname" maxOccurs="unbounded"/>
+                                        <xs:element name="lastname" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attribute name="userType" type="xs:string" use="required"/>
+                        <xs:attribute name="isAdmin" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
